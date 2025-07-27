@@ -5,10 +5,10 @@ import { ExternalLink } from "lucide-react"
 export default function ProjectsPage() {
   const currentProjects = [
     {
-      title: "Local Restaurant Chain Digital Transformation",
-      client: "Mama's Kitchen",
+      title: "Market Analysis for EV Batteries",
+      client: "Bricks Capital Management",
       description:
-        "Implementing comprehensive digital strategy including online ordering, social media presence, and customer loyalty program.",
+        "Analyzing and condensing market research papers for Bricks Capital Management ability to apply to their EV clients .",
       status: "In Progress",
       team: 6,
       duration: "3 months",
@@ -16,21 +16,21 @@ export default function ProjectsPage() {
       tags: ["Digital Strategy", "Marketing", "Operations"],
     },
     {
-      title: "Nonprofit Fundraising Strategy",
-      client: "Community Youth Center",
+      title: "Fundraisers, Community Outreach, and Marketing",
+      client: "Troy Parks and Recreation",
       description:
-        "Developing sustainable fundraising strategies and grant application processes to increase annual revenue by 40%.",
-      status: "Planning",
+        "Partnered with local government to create and implement marketing strategies, fundraisers, and community outreach programs.",
+      status: "In Progress",
       team: 4,
       duration: "4 months",
       progress: 25,
       tags: ["Strategy", "Fundraising", "Nonprofit"],
     },
     {
-      title: "Small Business Financial Planning",
-      client: "Green Thumb Landscaping",
+      title: "Menu Recreation and Marketing Strategy",
+      client: "Golden Chicken",
       description:
-        "Creating comprehensive financial planning system and growth strategy for expanding landscaping business.",
+        "Creating a new menu and marketing strategy for a local restaurant to increase customer engagement and sales.",
       status: "In Progress",
       team: 5,
       duration: "2 months",
@@ -41,9 +41,9 @@ export default function ProjectsPage() {
 
   const pastProjects = [
     {
-      title: "E-commerce Platform Launch",
-      client: "Artisan Crafts Co.",
-      description: "Successfully launched online store resulting in 200% increase in sales within first quarter.",
+      title: "Indian Fashion Week",
+      client: "Sahar Creations",
+      description: "Successfully launched online store, created a fashion line from recycling old clothes for Indian Fashion Week, featured on local news.",
       completedDate: "December 2023",
       team: 8,
       duration: "5 months",
@@ -51,10 +51,10 @@ export default function ProjectsPage() {
       tags: ["E-commerce", "Digital Marketing", "Strategy"],
     },
     {
-      title: "Restaurant Operations Optimization",
-      client: "Corner Bistro",
+      title: "Simple Awareness Campaign",
+      client: "Right Food Choice",
       description:
-        "Streamlined operations and implemented new POS system, reducing wait times by 35% and increasing customer satisfaction.",
+        "Increased awareness of the company through reels, ads, and posts",
       completedDate: "October 2023",
       team: 6,
       duration: "3 months",
@@ -62,9 +62,9 @@ export default function ProjectsPage() {
       tags: ["Operations", "Technology", "Customer Experience"],
     },
     {
-      title: "Retail Store Market Expansion",
-      client: "Urban Threads Boutique",
-      description: "Developed market expansion strategy leading to successful opening of two new locations.",
+      title: "Tournament Marketing Strategy",
+      client: "Crincindo",
+      description: "Developed market expansion strategy for sports facility by running a tournament, increasing brand visibility and customer engagement.",
       completedDate: "September 2023",
       team: 7,
       duration: "4 months",
@@ -72,9 +72,9 @@ export default function ProjectsPage() {
       tags: ["Market Research", "Expansion", "Retail"],
     },
     {
-      title: "Tech Startup Business Plan",
-      client: "EduTech Solutions",
-      description: "Created comprehensive business plan and pitch deck, helping secure $500K in seed funding.",
+      title: "Merch Redesign",
+      client: "Frozen Sunshine",
+      description: "Rebranded smoothie shop with new merchandise design and pricing",
       completedDate: "August 2023",
       team: 5,
       duration: "6 weeks",
@@ -82,9 +82,9 @@ export default function ProjectsPage() {
       tags: ["Business Planning", "Startups", "Funding"],
     },
     {
-      title: "Healthcare Practice Management",
-      client: "Wellness Family Clinic",
-      description: "Implemented patient management system and optimized scheduling, improving efficiency by 45%.",
+      title: "Fun Facts, Posts, and More",
+      client: "Stage Nature Center",
+      description: "Created a local social media camapaign with fun facts, SNC updates, volunteering opportunities, and more",
       completedDate: "July 2023",
       team: 4,
       duration: "8 weeks",
@@ -92,10 +92,10 @@ export default function ProjectsPage() {
       tags: ["Healthcare", "Management", "Technology"],
     },
     {
-      title: "Manufacturing Process Improvement",
-      client: "Precision Parts Inc.",
+      title: "Yoga Studio Reorganization",
+      client: "Practice Yoga Studio",
       description:
-        "Analyzed and optimized manufacturing processes, reducing production costs by 20% while maintaining quality.",
+        "Created fitness clothing using CustomInk, and ran social media campaigns and flyers to promote the new clothing line",
       completedDate: "June 2023",
       team: 6,
       duration: "10 weeks",
@@ -185,28 +185,6 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      {/* Project Impact Stats */}
-      <section className="py-20 bg-gradient-to-r from-red-600 to-red-700 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Project Impact</h2>
-            <p className="text-xl opacity-90">Measurable results from our consulting engagements</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-            {[
-              { number: "25+", label: "Projects Completed" },
-              { number: "13%", label: "Client Traffic Increase" },
-              { number: "95%", label: "Business Acumen Growth" },
-            ].map((stat, index) => (
-              <div key={index} className="animate-slide-up">
-                <div className="text-4xl md:text-5xl font-bold mb-2">{stat.number}</div>
-                <div className="text-lg opacity-90">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-20 bg-white">

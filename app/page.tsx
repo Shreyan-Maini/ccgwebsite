@@ -9,7 +9,18 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-red-50 to-white overflow-hidden">
         <div className="absolute inset-0 bg-[url('/placeholder.svg?height=800&width=1200')] opacity-5"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+        {/* Floating Logo */}
+        <div className="absolute top-20 md:top-24 flex justify-center w-full animate-fade-in-up">
+          <img
+            src="/CCG%20Logo.png"
+            alt="Colt Consulting Group Logo"
+            className="w-48 md:w-64 lg:w-72 h-auto"
+          />
+        </div>
+
+        {/* Hero Content */}
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-40 md:mt-52">
           <div className="animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="gradient-text">Empowering</span>
@@ -43,8 +54,8 @@ export default function AboutPage() {
           <div className="text-center mb-16 animate-slide-up">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">Our Mission</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Bridging the gap between education and real-world business experience while making professional consulting
-              accessible to all.
+              We empower the next generation of business leaders by blending education with real-world consulting,
+              helping students grow while making professional support accessible to local and underrepresented businesses.
             </p>
           </div>
 
@@ -53,22 +64,26 @@ export default function AboutPage() {
               {
                 icon: Users,
                 title: "Community Impact",
-                description: "Supporting underrepresented businesses with professional consulting services",
+                description:
+                  "We offer no-cost consulting to small and underrepresented businesses, giving them access to tailored strategies that boost visibility and growth.",
               },
               {
                 icon: BookOpen,
                 title: "Youth Education",
-                description: "Teaching students real-world business skills through hands-on experience",
+                description:
+                  "Our student consultants gain experience in data analysis, marketing, and strategy while building teamwork and leadership skills on real client projects.",
               },
               {
                 icon: Target,
                 title: "Strategic Solutions",
-                description: "Delivering tailored strategies that drive measurable business growth",
+                description:
+                  "Each project focuses on solving specific business challenges—whether it’s optimizing operations, launching a new product, or increasing digital engagement.",
               },
               {
                 icon: TrendingUp,
                 title: "Sustainable Growth",
-                description: "Building long-term partnerships that create lasting positive change",
+                description:
+                  "We foster long-term relationships with clients and help students understand how lasting business value is created through consistent, strategic effort.",
               },
             ].map((item, index) => (
               <Card
