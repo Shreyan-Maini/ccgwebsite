@@ -20,7 +20,7 @@ export default function AboutPage() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-40 md:mt-52">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-48 md:mt-56 lg:mt-64">
           <div className="animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="gradient-text">Empowering</span>
