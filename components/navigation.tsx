@@ -54,7 +54,7 @@ export function Navigation() {
                 {item.label}
               </Link>
             ))}
-            <Button className="bg-red-600 hover:bg-red-700 text-white">Get Started</Button>
+           
           </div>
 
           {/* Mobile menu button */}

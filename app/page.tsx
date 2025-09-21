@@ -108,8 +108,8 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             {[
-              { number: "14+", label: "Businesses Helped" },
-              { number: "50+", label: "Students Trained" },
+              { number: "24+", label: "Businesses Helped" },
+              { number: "90+", label: "Students Trained" },
               { number: "20+", label: "Projects Completed" },
             ].map((stat, index) => (
               <div key={index} className="animate-slide-up">
