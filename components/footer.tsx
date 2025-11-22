@@ -14,9 +14,10 @@ export function Footer() {
               <span className="font-bold text-xl gradient-text">Colts Consulting Group</span>
             </div>
             <p className="text-gray-600 mb-4 max-w-md">
-              Empowering underrepresented businesses and educating youth about the world of business through innovative
-              consulting solutions.
+              Empowering underrepresented businesses and educating youth about the world of business
+              through innovative consulting solutions.
             </p>
+
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-gray-600">
                 <Mail className="h-4 w-4" />
@@ -58,11 +59,23 @@ export function Footer() {
               </li>
             </ul>
           </div>
-
         </div>
 
-        <div className="border-t mt-8 pt-8 text-center text-gray-600">
+        {/* --- Updated Bottom Section --- */}
+        <div className="border-t mt-8 pt-8 text-center text-gray-600 space-y-2">
           <p>&copy; 2024 Colts Consulting Group. All rights reserved.</p>
+
+          <p className="text-sm">
+            Made by{" "}
+            <a
+              href="https://www.patadigitalservices.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-red-600 hover:text-red-700 font-medium"
+            >
+              PATA Digital Services
+            </a>
+          </p>
         </div>
       </div>
     </footer>
