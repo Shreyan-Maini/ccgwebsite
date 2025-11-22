@@ -63,7 +63,7 @@ export function Footer() {
 
         {/* --- Updated Bottom Section --- */}
         <div className="border-t mt-8 pt-8 text-center text-gray-600 space-y-2">
-          <p>&copy; 2024 Colts Consulting Group. All rights reserved.</p>
+          <p>&copy; 2025 Colts Consulting Group. All rights reserved.</p>
 
           <p className="text-sm">
             Made by{" "}
